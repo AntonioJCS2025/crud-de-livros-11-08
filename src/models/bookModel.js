@@ -34,23 +34,23 @@ const BooksList = require("../data/books")
 
 } 
 
-//    const remove = (id) => {
-//     const index = BooksList.findIndex (user => user.id === id)
+   const remove = (id) => {
+    const index = BooksList.findIndex (user => user.id === id)
 
-//     const deleted = BooksList[index]
+    const deleted = BooksList[index]
 
-//     BooksList.splice(index, 1)
+    BooksList.splice(index, 1)
 
-//     if  (index === -1) return null
+    if  (index === -1) return null
 
-//     return deleted  
+    return deleted  
 
-//    }
+   }
 
 module.exports = {
         findAll,
         create,
         findById,
         update,
-       // remove
+        remove
     }

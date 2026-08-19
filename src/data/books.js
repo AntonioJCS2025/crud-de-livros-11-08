@@ -1,14 +1,9 @@
- const BooksList = [
+ const booksList = [
         {
             "id": 1,
-            "title": "Avatar"
+            "title": "Avatar",
             "author": "Randy Ribay"
         },
 
-        {
-            id: 2,
-            "title": "Nada pode me ferir"
-            "author": "David Goggins"
-        },
-    ]
-    module.exports = BooksList
+        ]
+    module.exports = booksList
